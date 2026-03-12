@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>input evnet example</h2>
+        <input type="text" oninput="showText(this.value)">
+        <p id="output"></p>
+        <script>
+            function showText(value){
+                document.getElementById("output").innerHTML=value;
+            }
+        </script>
+    </body>
+</html>
